@@ -21,3 +21,6 @@ Thumbs.db
 .idea/
 *.suo
 *.sw?
+
+# Ignorar el archivo de Docker Compose
+docker-compose.yml
