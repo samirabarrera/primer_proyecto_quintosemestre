@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+
+:root {
+  /* Fondos oscuros con tono morado */
+  --bg-primary: #1a0f2e;
+  --bg-secondary: #2d1b4e;
+  --bg-card: #3b2060;
+  --bg-hover: #4c2a7a;
+
+  /* Acento — rosa vibrante pastel sobre fondo oscuro */
+  --accent: #f472b6;
+  --accent-hover: #ec4899;
+  --accent-light: rgba(244, 114, 182, 0.18);
+
+  /* Semánticos */
+  --success: #6ee7b7;
+  --warning: #fcd34d;
+  --danger: #fca5a5;
+  --info: #a5f3fc;
+
+  /* Texto — claro sobre fondo oscuro */
+  --text-primary: #fdf4ff;
+  --text-secondary: #d8b4fe;
+
+  /* Bordes, sombras y radios */
+  --border: rgba(244, 114, 182, 0.2);
+  --shadow: 0 4px 24px rgba(0, 0, 0, 0.45);
+  --radius: 14px;
+  --radius-sm: 8px;
+  --transition: 0.2s ease;
+}
+
+/*Reset & Base*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Inter", sans-serif;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  min-height: 100vh;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}

@@ -1,0 +1,21 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Sistema de Soporte L1/L2",
+  "main": "Soporte.API/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node Soporte.API/index.js",
+    "dev": "node --watch Soporte.API/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "pdfkit": "^0.17.2",
+    "pg": "^8.18.0"
+  }
+}
